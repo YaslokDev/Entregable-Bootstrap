@@ -1,0 +1,296 @@
+body {
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: left;
+  margin: 0;
+  position: absolute;
+  bottom: 40%;
+  padding-left: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #4e4e4e;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #4e4e4e;
+  font-weight: bold;
+}
+
+p {
+  color: #878787;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    background-image: url("../img/header-mini.png");
+    background-repeat: no-repeat;
+    background-size: cover, auto;
+    width: 100%;
+    height: 25rem;
+    background-position: 50%;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .banner {
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover, auto;
+    width: 100%;
+    height: 25rem;
+    background-position: 50%;
+    position: relative;
+  }
+}
+
+.navbar-expand-lg {
+  background-color: #61458c;
+}
+
+div .container {
+  background-color: #61458c;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #fff;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-link:hover {
+  color: #61458c;
+  background-color: #fff;
+}
+
+.navbar-toggler {
+  color: #fff;
+}
+
+header.container {
+  margin-bottom: 3rem;
+}
+
+.who {
+  justify-content: center;
+}
+
+.whoweare-section {
+  background-color: #f2f2f2;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.vhr {
+  border-right: 1px solid #878787;
+  height: 580px;
+  width: 1px;
+  display: inline-block;
+  padding: 0%;
+}
+
+img#foto1 {
+  float: left;
+  margin-right: 0.5rem;
+}
+
+img#fotoAd {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  img#fotoAd {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  img#fotoAd {
+    display: none;
+  }
+}
+
+.services-section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.services-section p {
+  text-align: justify;
+}
+
+.services-section span > i:nth-child(1) {
+  color: #d3d3d3;
+  transition: color 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.services-section span:hover :nth-child(1) {
+  display: none;
+}
+
+.services-section span > i:nth-child(2) {
+  color: #61458c;
+  transition: color 0.5s;
+}
+
+.services-section span:hover :nth-child(2) {
+  color: white;
+}
+
+.services-section span > i:nth-child(3) {
+  color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.services-section span:hover :nth-child(3) {
+  opacity: 1;
+  z-index: -1;
+  color: #61458c;
+}
+
+.portfolio-section {
+  background-color: #f2f2f2;
+}
+
+.portfolio-image {
+  height: 154px;
+  width: 240px;
+}
+
+.portfolio-image:hover {
+  transform: rotate(-20deg);
+  transition-duration: 1s;
+}
+
+.portfolio-imageSpecial {
+  height: 154px;
+  width: 240px;
+  transition: transform 1s ease;
+}
+
+.portfolio-imageSpecial:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+  border-radius: 50px;
+}
+
+.location-section .row {
+  align-items: center;
+}
+.location-section .map {
+  text-align: center;
+  margin-right: 40px;
+}
+
+.location-section h2 {
+  margin: 0;
+  width: 100%;
+}
+
+.location-section h4 {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.location-section > p:nth-child(2) {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #4e4e4e;
+}
+
+.location-section p {
+  width: 100%;
+  text-align: center;
+  color: #4e4e4e;
+}
+
+.location-section iframe {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.map {
+  text-align: center;
+}
+
+.EmailUsForm {
+  background-color: #79629e;
+  background-image: url(../img/map-image.png);
+  background-size: 100%;
+}
+
+.EmailUsForm h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 2.5em;
+  font-weight: 550;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.EmailUsForm input[type="text"] {
+  padding: 0.5em;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.EmailUsForm textarea {
+  height: 50%;
+  padding: 0.5em;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.EmailUsForm label {
+  text-align: left;
+  color: white;
+  font-size: 1.3em;
+}
+
+.EmailUsForm input[type="submit"] {
+  width: 11%;
+  font-size: 1em;
+  border-radius: 5px;
+  border-color: white;
+  padding: 0.1em;
+  margin: 1.5em;
+}
+
+.footer-section {
+  background-color: #61458c;
+  text-align: right;
+  color: #fff;
+  border-color: #61458c;
+  font-size: 0.8em;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.color-font {
+  color: #fff;
+}
